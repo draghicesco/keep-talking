@@ -1,0 +1,13 @@
+{
+  "name": "keep-talking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "jest",
+    "dev":"rollup -c -w"
+  },
+  "author": "",
+  "license": "ISC"
+}

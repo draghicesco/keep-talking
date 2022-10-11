@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keep talking</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/siimple/siimple.css" />
+    <link rel="stylesheet" href="assets/style.css">
+
+</head>
+
+<body>
+    <div id="badge">Talk!</div>
+    <div class="has-p-2">
+
+        <h1>Keep talking</h1>
+
+
+
+
+
+        <div class="has-w-full has-overflow-y is-flex has-items-center has-justify-center">
+            <div>
+                <label class="label" for="switch">
+                    <input type="checkbox" id="switch" class="switch has-mr-2" checked />Listen
+                </label>
+            </div>
+
+        </div>
+
+
+
+
+        <label for="input-range">Threshold
+            <div class="wrapper"><progress class="progress" id="indicator" max="100" value="50"></progress></div>
+
+            <input id="threshold" type="range" class="slider" value="10" />
+        </label>
+
+
+
+
+
+
+
+        <label>Beep after:</label>
+        <input type="number" min="1" id="timeout" value="4" class="input" placeholder="seconds">
+        <p>Silence elapsed time</p>
+
+        <label for="volume">Volume
+            <input id="volumeCtrl" type="range" class="slider" max="100" value="75" />
+        </label>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="assets/app.js"></script>
+
+</body>
+
+</html>
